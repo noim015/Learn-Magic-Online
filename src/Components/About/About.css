@@ -1,0 +1,16 @@
+.aboutUs{
+    padding: 25px 0;
+}
+.aboutUs h1{
+    font-size: 50px;
+    color: #41464b;
+    padding: 10px 0 40px;
+}
+.aboutUs p{
+    font-size: 20px;
+    color: #41464b;
+    
+}
+img{
+    margin-bottom: 5px;
+}
