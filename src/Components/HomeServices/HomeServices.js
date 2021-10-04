@@ -2,9 +2,11 @@ import React from 'react';
 import { Button, Card, Col, Row } from 'react-bootstrap';
 
 const HomeServices = (props) => {
+    // Card Style CSS
     const cardSetting = {
         margin: "10px 0",
     }
+    // Card Sub Title CSS
     const cardSubTitle = {
         color: '#084298',
         fontSize: '18px',
@@ -12,11 +14,8 @@ const HomeServices = (props) => {
         float: 'left',
         paddingTop: '5px'
     }
-    const {title, fee, description, trainer, trainer_img, cover_img, review} = props.data;
+    const {title, fee, description, cover_img} = props.data;
     return (
-        
-            
-               
             <Col md={3} style={cardSetting}>
             <Card>
             <Card.Img variant="top" src={cover_img} />
@@ -27,9 +26,6 @@ const HomeServices = (props) => {
             </Card.Body>
             </Card>
             </Col>
-        
-             
-        
     );
 };
 

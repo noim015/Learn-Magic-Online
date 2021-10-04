@@ -18,8 +18,7 @@ const About = () => {
                     </Col>
                     <Col md={6}>
                         <div className="aboutText">
-                            <p>
-                            Are you ready to move your magic journey forward? These online classes from Learn Magic School dive into a range of techniques and topics, including basic magic tricks, street magic, card tricks, and sleight of hand. Whether you’re a beginner trying out easy magic tricks for the first time, or you’re experienced with magic techniques, these online tutorials can help you find inspiration and learn new ways to improve your magic performances. Learn how to read tarot cards, amaze and impress your friends, and perform at parties. Taught by experts, experienced and working magicians, these classes are broken down into short lessons, with the support of a creative community to help you advance your skills.
+                            <p>Are you ready to move your magic journey forward? These online classes from Learn Magic School dive into a range of techniques and topics, including basic magic tricks, street magic, card tricks, and sleight of hand. Whether you’re a beginner trying out easy magic tricks for the first time, or you’re experienced with magic techniques, these online tutorials can help you find inspiration and learn new ways to improve your magic performances. Learn how to read tarot cards, amaze and impress your friends, and perform at parties. Taught by experts, experienced and working magicians, these classes are broken down into short lessons, with the support of a creative community to help you advance your skills.
                             </p>
                         </div>
                     </Col>

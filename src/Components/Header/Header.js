@@ -4,12 +4,13 @@ import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
+    // Navigration active button css
     const activeStyle = {
         background: "#000000",
         color: "#7e8489"
     }
     return (
-        <div>
+        <div> 
            <div className="header_navigration">
                 <Navbar bg="dark" expand="lg" variant="dark">
                         <Container>
@@ -24,7 +25,7 @@ const Header = () => {
                             </Nav>
                             </Navbar.Collapse>
                         </Container>
-                    </Navbar>
+                </Navbar>
            </div>           
         </div>
     );

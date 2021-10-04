@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Footer = () => {
+    // Footer Style CSS
     const footerStyle = {
         background: '#000',
         color: '#fff',

@@ -13,6 +13,9 @@ const Home = () => {
     return (
         <div>
             <Body></Body>
+            <div className="services">
+               <h1>Our Services</h1>
+            </div>
             <Container>
                <Row>
                {
@@ -20,7 +23,7 @@ const Home = () => {
                     key={service.id}
                     data = {service}                    
                     ></HomeServices>)
-            }
+               }
                </Row>
            </Container>
         </div>

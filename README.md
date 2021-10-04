@@ -1,6 +1,6 @@
-# Learn MAgic Online
+# Learn Magic Online
 
-The live link for the website is [Learn MAgic Online](https://relaxed-hamilton-a4a9be.netlify.app/).
+The live link for the website is [Learn Magic Online](https://sharp-payne-63db0e.netlify.app/).
 
 ## Main Features
 - Be able to enroll in a course 

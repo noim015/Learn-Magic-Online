@@ -1,15 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Col, Row } from 'react-bootstrap';
 import Header from './Components/Header/Header';
-import Body from './Components/Body/Body';
 import Footer from './Components/Footer/Footer';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Services from './Components/Services/Services';
 import Home from './Components/Home/Home';
