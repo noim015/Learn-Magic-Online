@@ -15,6 +15,7 @@ import Services from './Components/Services/Services';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import NotFound from './Components/NotFound/NotFound';
+import Reviews from './Components/Reviews/Reviews';
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route exact path="/services">
             <Services></Services>
+          </Route>
+          <Route exact path="/reviews">
+            <Reviews></Reviews>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

@@ -54,7 +54,7 @@ const Body = () => {
                                     <Card.Body>
                                     <Card.Title> Online Training </Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        We provide our training through zoom apps so anyone from anywhere easily can get our services if he/she has mobile phone or PC alongside a minimal internat connection.
                                     </Card.Text>
                                     </Card.Body>
                             </Card>
@@ -64,7 +64,7 @@ const Body = () => {
                                 <Card.Body>
                                 <Card.Title> 24/7 Supports </Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    If someone can not cover the course properly or don't understand then we halp to overcome the obstacle through the teamviewer apps showing everything on his/her PC.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -74,7 +74,7 @@ const Body = () => {
                                 <Card.Body>
                                 <Card.Title>Class Videos Provided </Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    Our courses are designed for everyone for example a student , a job holder , a housewhife anyone can enroll on our courses and we have EMI system to make payment for the course.
                                 </Card.Text>
                                 </Card.Body>
                             </Card>

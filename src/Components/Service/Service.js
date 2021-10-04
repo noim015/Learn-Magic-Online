@@ -6,7 +6,14 @@ const Service = (props) => {
     const cardSetting = {
         margin: "10px 0",
     }
-    const {title, description, trainer, trainer_img, cover_img, review} = props.data;
+    const cardSubTitle = {
+        color: '#084298',
+        fontSize: '18px',
+        fontWeight: '700',
+        float: 'left',
+        paddingTop: '5px'
+    }
+    const {title, fee, description, trainer, trainer_img, cover_img, review} = props.data;
     return (
         
             
@@ -17,7 +24,8 @@ const Service = (props) => {
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text> {description.substr(0,145)}... </Card.Text>
-                <Button variant="primary">View Details</Button>
+                <Row><Col><div style={cardSubTitle}>{ fee }</div></Col> <Col><Button variant="warning">View Details</Button></Col> </Row>
+                <Col></Col>
             </Card.Body>
             </Card>
             </Col>
