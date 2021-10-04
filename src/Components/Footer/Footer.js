@@ -1,9 +1,15 @@
 import React from 'react';
 
 const Footer = () => {
+    const footerStyle = {
+        background: '#000',
+        color: '#fff',
+        padding: '15px 0',
+        margin: '25px 0 0'
+    }
     return (
         <div>
-            <footer> <small>&copy; Copyright 2021, Programming Hero</small> </footer> 
+            <footer style={footerStyle}> <small>&copy; Copyright 2021, Programming Hero</small> </footer> 
         </div>
     );
 };

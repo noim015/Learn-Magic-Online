@@ -52,7 +52,7 @@ const Body = () => {
                        <Col md={4}>
                             <Card className="myCard">
                                     <Card.Body>
-                                    <Card.Title> Card Title </Card.Title>
+                                    <Card.Title> Online Training </Card.Title>
                                     <Card.Text>
                                         Some quick example text to build on the card title and make up the bulk of the card's content.
                                     </Card.Text>
@@ -62,7 +62,7 @@ const Body = () => {
                        <Col md={4}>
                             <Card className="myCard" >
                                 <Card.Body>
-                                <Card.Title> Card Title </Card.Title>
+                                <Card.Title> 24/7 Supports </Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
                                 </Card.Text>
@@ -72,7 +72,7 @@ const Body = () => {
                        <Col md={4}>
                             <Card className="myCard">
                                 <Card.Body>
-                                <Card.Title>Card Title </Card.Title>
+                                <Card.Title>Class Videos Provided </Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
                                 </Card.Text>
