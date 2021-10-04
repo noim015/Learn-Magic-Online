@@ -1,10 +1,11 @@
-import React from 'react';
 import { Card, Carousel, Col, Container, Row } from 'react-bootstrap';
 import './Body.css';
 import slide1 from '../../Images/slide1.jpg';
 import slide2 from '../../Images/slide2.jpg';
 import slide3 from '../../Images/slide3.jpg';
+import Services from '../Services/Services';
 const Body = () => {
+    
     return (
         <div>
 
@@ -85,6 +86,7 @@ const Body = () => {
            </div>
            <div className="services">
                <h1>Our Services</h1>
+               
            </div>
            </div>
     );

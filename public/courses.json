@@ -78,7 +78,14 @@
         "description":"In this course I will teach you 5 basic effects with everyday objects that require a small amount of practice and will create an unforgettable experience for your friends, family and everyone you choose to perform for. You will learn how to vanish and tranform objects, destroy and restore them in addition to knowing what the spectator is thinking of.",
         "trainer":"Bon Jacob",
         "trainer_img": "https://i.pinimg.com/originals/73/16/f5/7316f550de9ca0045e3d8d98a5bb5e44.png",
-        "cover_img": "https://res.cloudinary.com/practicaldev/image/fetch/s--D-aJRe8W--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/d7oeukl09h4vemh75dl0.png"
+        "cover_img": "https://res.cloudinary.com/practicaldev/image/fetch/s--D-aJRe8W--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/d7oeukl09h4vemh75dl0.png",
+        "reviews": {
+                "rev1" : "It's awesome",
+                "rev2" : "It's very nice",
+                "rev3" : "It's fantastic",
+                "rev4" : "It's mervalous",
+                "rev5" : "It's excellent"
+        }
     },
     {
         "id": 10,

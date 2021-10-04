@@ -1,20 +1,26 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
+    const activeStyle = {
+        background: "#000000",
+        color: "#7e8489"
+    }
     return (
         <div>
            <div className="header_navigration">
                 <Navbar bg="dark" expand="lg" variant="dark">
                         <Container>
-                            <Navbar.Brand href="#home">Learn Magic Online</Navbar.Brand>
+                            <Navbar.Brand href="/">Learn Magic Online</Navbar.Brand>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
-                                <Nav.Link href="#home">Home</Nav.Link>
-                                <Nav.Link href="#link">Services</Nav.Link>
-                                <Nav.Link href="#link">Reviews</Nav.Link>
-                                <Nav.Link href="#link">About</Nav.Link>
+                                <NavLink activeStyle={activeStyle} to="/home">Home</NavLink>
+                                <NavLink activeStyle={activeStyle} to="/services">Services</NavLink>
+                                <NavLink activeStyle={activeStyle} to="/reviews">Reviews</NavLink>
+                                <NavLink activeStyle={activeStyle} to="/about">About</NavLink>
                             </Nav>
                             </Navbar.Collapse>
                         </Container>

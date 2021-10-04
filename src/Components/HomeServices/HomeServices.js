@@ -1,8 +1,7 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Button, Card, Col } from 'react-bootstrap';
 
-const Service = (props) => {
+const HomeServices = (props) => {
     const cardSetting = {
         margin: "10px 0",
     }
@@ -27,4 +26,4 @@ const Service = (props) => {
     );
 };
 
-export default Service;
+export default HomeServices;
