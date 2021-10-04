@@ -1,9 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
+import {  ServiceContext } from '../../App';
 import Body from '../Body/Body';
 import HomeServices from '../HomeServices/HomeServices';
 
 const Home = () => {
+    //Use Of Context API
+    const getTitle = useContext(ServiceContext);
     const [services,setServices] = useState([]);
     useEffect( () => {
         fetch('../courses.json')
@@ -14,7 +17,7 @@ const Home = () => {
         <div>
             <Body></Body>
             <div className="services">
-               <h1>Our Services</h1>
+               <h1>{getTitle}</h1>
             </div>
             <Container>
                <Row>

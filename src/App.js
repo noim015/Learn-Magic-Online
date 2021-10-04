@@ -13,10 +13,13 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import NotFound from './Components/NotFound/NotFound';
 import Reviews from './Components/Reviews/Reviews';
-
+import { createContext } from 'react';
+export const ServiceContext = createContext('Service');
 function App() {
+  const services = 'Our Services';
   return (
-    <div className="App">
+    <ServiceContext.Provider value={services}>
+        <div className="App">
       <Router>
         <Header></Header>
         <Switch>
@@ -42,6 +45,8 @@ function App() {
         <Footer></Footer>
       </Router>
     </div>
+    </ServiceContext.Provider>
+    
   );
 }
 

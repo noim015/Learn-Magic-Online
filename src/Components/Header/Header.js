@@ -14,7 +14,7 @@ const Header = () => {
            <div className="header_navigration">
                 <Navbar bg="dark" expand="lg" variant="dark">
                         <Container>
-                            <Navbar.Brand href="/">Learn Magic Online</Navbar.Brand>
+                            <NavLink style={{textDecoration:'none',color:'#fff',fontSize:'25px'}} to="/">Learn Magic Online</NavLink>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
@@ -24,6 +24,7 @@ const Header = () => {
                                 <NavLink activeStyle={activeStyle} to="/about">About</NavLink>
                             </Nav>
                             </Navbar.Collapse>
+                            <h1>Hello</h1>
                         </Container>
                 </Navbar>
            </div>           
