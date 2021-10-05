@@ -10,6 +10,7 @@ import './About.css';
 const About = () => {
     return (
         <div className="aboutUs">
+            {/* Page Title */}
             <h1>About Us</h1>
             <Container>
                 <Row>

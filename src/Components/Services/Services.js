@@ -11,6 +11,8 @@ const Services = () => {
     },[])
     return (
         <div>
+            {/* Page Title */}
+            <h1 style={{fontSize: '50px', color: '#41464b', padding: '20px 0 40px'}}>Our Services</h1>
            <Container>
                <Row>
                     {
