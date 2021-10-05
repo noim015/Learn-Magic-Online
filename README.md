@@ -13,5 +13,5 @@ The live link for the website is [Learn Magic Online](https://sharp-payne-63db0e
 
 ## Built With
 - HTML
-- CSS
+- CSS (Bootstrap)
 - Javascript (React JS)

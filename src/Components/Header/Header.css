@@ -1,3 +1,4 @@
+/*Website navigration style*/
 .me-auto a{
     color: azure;
     text-decoration: none;
@@ -6,6 +7,7 @@
     background: #212529;
     margin: 0 10px;
 }
+/*Website navigration active button style*/
 .me-auto .active{
     color: azure;
     text-decoration: none;

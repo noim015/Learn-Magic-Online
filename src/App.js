@@ -25,8 +25,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home></Home>
-          </Route>
-                    
+          </Route>          
           <Route exact path="/about">
             <About></About>
           </Route>
@@ -44,7 +43,7 @@ function App() {
       </Router>
     </div>
     </ServiceContext.Provider>
-    
+
   );
 }
 
