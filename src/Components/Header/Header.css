@@ -3,6 +3,14 @@
     text-decoration: none;
     font-size: 18px;
     padding: 10px 15px;
+    background: #212529;
+    margin: 0 10px;
+}
+.me-auto .active{
+    color: azure;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
     background: #373b3f;
     margin: 0 10px;
 }

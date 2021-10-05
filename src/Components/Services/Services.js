@@ -11,7 +11,6 @@ const Services = () => {
     },[])
     return (
         <div>
-            <h4>Our Total Services: {services.length}</h4>
            <Container>
                <Row>
                     {
